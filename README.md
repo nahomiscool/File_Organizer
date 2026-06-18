@@ -35,13 +35,13 @@ git clone https://github.com/yourusername/python-file-organizer.git
 
 # Navigate to the project directory
 cd python-file-organizer
-
+```
 🎮 Usage
 Run the script:
-bash
+```bash
 
 python file_organizer.py
-
+```
 Step-by-step:
 
     Enter the folder path - The folder containing files you want to organize
@@ -51,6 +51,7 @@ Step-by-step:
     Enter destination path - Where you want the organized files to be moved
 
 Example:
+```bash
 text
 
 Enter the path of the folder to organize: C:\Users\John\Downloads
@@ -70,7 +71,7 @@ Current working directory: C:\Users\John\Documents\PDFs
 Items in the current working directory: ['report.pdf', 'invoice.pdf', 'photo.jpg']
 Moved report.pdf to PDF folder
 Moved invoice.pdf to PDF folder
-
+```
 🗂️ How It Works
 
     The script changes to the source folder you specified
@@ -89,6 +90,7 @@ Moved invoice.pdf to PDF folder
 Adding New File Types
 
 To add support for new file types, follow this pattern:
+```bash
 python
 
 def moveMUSIC_TO_one_Folder():
@@ -105,15 +107,16 @@ def moveMUSIC_TO_one_Folder():
                 destination_file = os.path.join(destination_folder, item)
                 shutil.move(source_file, destination_file)
                 print(f"Moved {item} to Music folder")
-
+```
 Then add it to the menu:
+```bash
 python
 
 print("8. Music files")
 # And in the if/elif chain:
 elif choice == "8":
     moveMUSIC_TO_one_Folder()
-
+```
 ⚠️ Important Notes
 
     No Undo Feature - This script permanently moves files. Consider backing up important files before running.
