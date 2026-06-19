@@ -108,7 +108,7 @@ Step-by-step:
     Watch the progress bar and status updates!
 
 GUI Preview:
-text
+text```
 
 +------------------------------------------+
 |         📁 File Organizer                 |
