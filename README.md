@@ -108,7 +108,7 @@ Step-by-step:
     Watch the progress bar and status updates!
 
 GUI Preview:
-```text
+text
 
 +------------------------------------------+
 |         📁 File Organizer                 |
@@ -130,7 +130,7 @@ GUI Preview:
 |  Status: Ready                            |
 |  [████████████░░░░░░░░░] 75%              |
 +------------------------------------------+
-```
+
 📁 Project Structure
 ```text
 
